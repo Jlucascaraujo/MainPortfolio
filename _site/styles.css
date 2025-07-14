@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  --text-color: #04241C;
+  --text-color: #000;
   --link-color: #084b3a;
   --background-color: #ede0d0;
 }
@@ -68,25 +68,28 @@ li {
 }
 
 /*Header*/
-header {
+#headerWrapper {
   width: 100%;
   align-items: center;
 }
 
 #titleSection {
+  margin: auto;
+  padding-left: 15%;
+  padding-right: 15%;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto 1fr;
   align-items: center;
   gap: 0.5em;
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 
 #priceNEdition {
   aspect-ratio: 3/4;
   height: 4cm;
   display: flex;
-  justify-self: self-end;
+  justify-self: center;
   flex-direction: column;
   align-items: center;
   border: 3px solid #04241C;
@@ -121,6 +124,10 @@ header {
   font-size: 5rem;
 }
 
+#profilePicWrapper {
+  justify-self: center;
+}
+
 #profilePic {
   aspect-ratio: 3/4;
   height: 4cm;
@@ -133,9 +140,10 @@ header {
 }
 
 #secTime {
+  grid-column: 2;
   display: flex;
   align-items: center;
-  justify-self: self-end;
+  justify-self: center;
 }
 
 
