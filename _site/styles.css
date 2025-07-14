@@ -429,6 +429,10 @@ footer a:hover {
   transition: grid-template-rows 0.3s ease-out;
 }
 
+#divisionSection {
+  border: 3px solid #04241C;
+  border-style: dashed;
+}
 
 
 /*Controle responsivo da página através do @media*/
