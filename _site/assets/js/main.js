@@ -10,18 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  var options = {
-    strings: [
-      "Estou me formando em Engenharia de Software e estudando programação pela Udemy, Dio.me e claro, YouTube. Procuro oportunidades de Estágio 100% remoto ou no Distrito Federal"
-    ],
-    typeSpeed: 5,
-    contentType: 'html'
-  };
-
-  setTimeout(function () {
-    var typed = new Typed('.textoStatusAtual', options);
-  }, 500);
-
   setAccessTime();
 
   document.body.addEventListener('click', (ev) => {
