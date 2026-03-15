@@ -26,7 +26,7 @@ jobs:
 
       - name: Build project
         # Importante: o base-href garante que os assets carreguem no GitHub Pages
-        run: npx ng build --configuration production --base-href /Portfolio/
+        run: npx ng build --configuration production --base-href /
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
