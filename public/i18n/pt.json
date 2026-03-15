@@ -1,5 +1,13 @@
 {
+    "_comment": "Header, título e subtítulo",
+    "mainTitle": "Jogando o Machado",
+    "mainSubtitle": "Portifolio de José Lucas de Castro Araújo - Deselvolvedor Full Stack",
+    
     "_comment": "Header, seção de escolha de línguas",
     "langSwitch": "Línguas",
-    "langSwitchText": "Escolha sua língua:"
+    "langSwitchText": "Escolha sua língua:",
+
+    "_comment": "Footer, título",
+    "footerTitle": "Obrigado por visitar meu portifolio!",
+    "footerText": "Jogando o Machado 2026. Feito com Angular 21 e SASS (muita dor de cabeça)."
 }

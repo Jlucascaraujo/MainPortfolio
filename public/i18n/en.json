@@ -1,5 +1,13 @@
 {
+    "_comment": "Header, title and subtitle",
+    "mainTitle": "Throwing the Axe",
+    "mainSubtitle": "Portfolio of José Lucas de Castro Araújo - Full Stack Developer",
+    
     "_comment": "Header, section for selecting language",
     "langSwitch": "Languages",
-    "langSwitchText": "Choose your language:"
+    "langSwitchText": "Choose your language:",
+
+    "_comment": "Footer, title",
+    "footerTitle": "Thank you for visiting my portfolio!",
+    "footerText": "Jogando o Machado 2026. Made with Angular 21 and SASS (a lot of headaches)."
 }

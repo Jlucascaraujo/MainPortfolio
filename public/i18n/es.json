@@ -1,5 +1,13 @@
 {
+    "_comment": "Header, título y subtítulo",
+    "mainTitle": "Lanzando el hacha",
+    "mainSubtitle": "Portafolio de José Lucas de Castro Araújo - Desarrollador Full Stack",
+    
     "_comment": "Header, seccíon de seleccíon de idioma",
     "langSwitch": "Idiomas",
-    "langSwitchText": "Elige tu idioma:"
+    "langSwitchText": "Elige tu idioma:",
+
+    "_comment": "Footer, título",
+    "footerTitle": "Gracias por visitar mi portafolio!",
+    "footerText": "Lanzando el hacha 2026. Hecho con Angular 21 y SASS (mucho dolor de cabeza)."
 }
