@@ -34,7 +34,8 @@
             ],
             "polyfills": [
               "zone.js"
-            ]
+            ],
+            "outputPath": "dist/jogandoOMachado"
           },
           "configurations": {
             "production": {
