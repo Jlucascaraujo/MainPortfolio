@@ -1,21 +1,17 @@
 // app.component.ts (ou app.ts)
 import { Component, signal, inject } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { TranslatePipe, TranslateDirective, TranslateService } from '@ngx-translate/core';
-import { Header } from './header/header';
-import { Footer } from './footer/footer';
 
 @Component({
-  selector: 'app-root',
+  selector: 'footer-root',
   standalone: true,
-  imports: [RouterOutlet, TranslatePipe, TranslateDirective, Header, Footer],
-  templateUrl: './app.html',
-  styleUrl: './app.sass'
+  imports: [TranslatePipe, TranslateDirective],
+  templateUrl: './footer.html',
+  styleUrl: './footer.sass'
 })
-export class App {
+export class Footer {
   protected readonly title = signal('jogandoOMachado');
   
-  // O inject() aqui está correto, contanto que appConfig esteja no main.ts
   private translate = inject(TranslateService);
 
   useLanguage(language: string): void {

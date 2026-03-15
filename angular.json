@@ -31,6 +31,9 @@
             ],
             "styles": [
               "src/styles.sass"
+            ],
+            "polyfills": [
+              "zone.js"
             ]
           },
           "configurations": {
